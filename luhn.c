@@ -33,7 +33,7 @@ for(i=0;i<len;i++){
 }
 //sets checksum to the specific integer that when added to sum, would make sum evenly divisible by 10
 checksum = 10 - sum%10;
-//the checksum is now valid and the following statement will output in in a compile C program
+//the checksum is now valid, and the following statement will output the checksum in a compiled C program
 printf("%d",checksum);
     return 0;
 }
